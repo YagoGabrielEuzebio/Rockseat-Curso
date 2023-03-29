@@ -4,8 +4,13 @@
 }
 
 body, html {
-    height: 97vh;
-    width: auto;
+    height: auto;
+    width: 100%;
+}
+
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 img {
@@ -22,15 +27,13 @@ header {
     border-radius: 3px;
     overflow: hidden;
 
-    width: 98.4%;
+    width: 99%;
     padding: 10px;
 
     background-color: rgba(226, 225, 225, 0.966);
 }
 
-body::-webkit-scrollbar {
-    display: none;
-}
+
 
 header nav {
     display: flex;
@@ -50,6 +53,7 @@ header nav {
     
     padding: 7px;
     margin-left: 30px;
+    margin-right: 30px;
 
     color: white;
     background-color: rgb(143, 32, 235);
