@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 97vh;
+    width: auto;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.384);
+    border-radius: 3px;
+    overflow: hidden;
+
+    width: 98.4%;
+    padding: 10px;
+
+    background-color: rgba(226, 225, 225, 0.966);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+
+    margin: 4px;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.butao {
+    border-radius: 6px;
+    border: 1px solid black;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
+    
+    padding: 7px;
+    margin-left: 30px;
+
+    color: white;
+    background-color: rgb(143, 32, 235);
+}
